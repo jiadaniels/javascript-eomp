@@ -20,7 +20,9 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+
 <!-- nav bar -->
+
 <header>
   <nav
       class="navbar navbar-expand-lg navbar-dark bg-transparent"
@@ -62,28 +64,8 @@
             <li class="nav-item">
               <a class="nav-link" href="./admin.html">Admin</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Products
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="./hair.html"
-                    >Hair Products</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./beauty.html"
-                    >Beauty Products</a
-                  >
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="./hair.html">Products</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./checkout.html">Checkout</a>
@@ -93,18 +75,129 @@
       </div>
     </nav>
   </header>
+
 <!-- end nav bar -->
 
 <!-- content -->
 
-... 
+<table class="table table-secondary">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">IMAGE</th>
+      <th scope="col">PRODUCT NAME</th>
+      <th scope="col">DESCRIPTION</th>
+      <th scope="col">CATEGORY</th>
+      <th scope="col">BRAND</th>
+      <th scope="col">PRICE IN ZAR</th>
+      <th scope="col">ACTION</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><img src="../images/hair1.jpg" alt="" style="width: 70px; height:70px;"></td>
+      <td>Mycro Keratin Keraxir Smoothing Shampoo</td>
+      <td>Lightweight volumizing cleanser helps create 
+        body and shine throughout.</td>
+      <td>Hair</td>
+      <td>Mycro Keratin</td>
+      <td>R390</td>
+      <td><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><img src="../images/hair2.jpg" alt="" style="width: 70px; height:70px;"></td>
+      <td>Mycro Keratin Keraxir Smoothing Conditioner</td>
+      <td>Smoothes down damaged cuticles along the hair shaft.</td>
+      <td>Hair</td>
+      <td>Mycro Keratin</td>
+      <td>R390</td>
+      <td><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><img src="../images/hair3.jpg" alt="" style="width: 70px; height:70px;"></td>
+      <td>Mycro Keratin Keraxir Smoothing Serum</td>
+      <td>Designed to strengthen your hair and create ultimate shine.</td>
+      <td>Hair</td>
+      <td>Mycro Keratin</td>
+      <td>R430</td>
+      <td><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><img src="../images/hair4.png" alt="" style="width: 70px; height:70px;"></td>
+      <td>Quick Grow Blonde Shampoo & Conditioner Combo</td>
+      <td>Contains an Advanced Amino blend that assists in 
+        faster growing hair.</td>
+      <td>Hair</td>
+      <td>Quick Grow</td>
+      <td>R600</td>
+      <td><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td><img src="../images/beauty1.png" alt="" style="width: 70px; height:70px;"></td>
+      <td>The Skin Lab Antioxidant Cleanser</td>
+      <td>Powerful antioxidant plant extracts, for a fresh and hydrated 
+        feeling with added skin protection.</td>
+      <td>Beauty</td>
+      <td>The Skin Lab</td>
+      <td>R201</td>
+      <td><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td><img src="../images/beauty2.jpeg" alt="" style="width: 70px; height:70px;"></td>
+      <td>The Skin Lab Powerlift Moisturiser</td>
+      <td>Gel cream with powerful anti ageing effect. Prevents skin sagging 
+        and reduces wrinkle depth.</td>
+      <td>Beauty</td>
+      <td>The Skin Lab</td>
+      <td>R370</td>
+      <td><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td><img src="../images/beauty3.png" alt="" style="width: 70px; height:70px;"></td>
+      <td>The Skin Lab Skin Brightening Corrector</td>
+      <td>Used for pigmentation and congested skin. Active ingredients - mandelic acid.</td>
+      <td>Beauty</td>
+      <td>The Skin Lab</td>
+      <td>R318</td>
+      <td><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td><img src="../images/beauty4.png" alt="" style="width: 70px; height:70px;"></td>
+      <td>The Skin Lab Vit C Booster Serum</td>
+      <td>High dose of stable Vit C in a creamy texture for a brighter skin tone. 
+        Boosts Collagen production and reduces blemishes.</td>
+      <td>Beauty</td>
+      <td>The Skin Lab</td>
+      <td>R300</td>
+      <td><a href="#"><i class="fa-solid fa-pen-to-square"></i></a><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+    </tr>
+    <tr>
+      <th scope="row">...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- end content -->
 
 <!-- footer -->
 
 <section>
-  <div class="container fixed-bottom">
+  <div class="container">
     <footer
       class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
     >
@@ -138,6 +231,7 @@
     </footer>
   </div>
 </section>
+
 <!-- end footer -->
 
 <script src="../javascript/script.js"></script>
